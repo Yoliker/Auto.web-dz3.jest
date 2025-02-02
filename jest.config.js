@@ -5,12 +5,12 @@ const config = {
         '**/*.{js,jsx}',
         '!**/node_modules/**',
         '!**/coverage/**',
-        "!**jest.config.js**",
+        '!**jest.config.js**',
     ],
     coverageThreshold: {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100
+        branches: 100,
+        functions: 100,
+        lines: 100
     }
 };
   
